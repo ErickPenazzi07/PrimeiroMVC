@@ -7,8 +7,6 @@ namespace PrimeiroMVC.Controllers
     {
         public IActionResult Index()
 
-
-        //criando aluno
         {
             Aluno a1 = new Aluno(1, "Jermilson ", "Jermdocapa@gmail.com ", 9078);
             Aluno a2 = new Aluno(2, "Hegtar ", "Hdogeloinvertido@gmail.com ", 9077);
